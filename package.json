@@ -1,0 +1,18 @@
+{
+  "name": "@z9i/compress-number-string",
+  "version": "0.0.1",
+  "description": "Compress a string contains only number character.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "compress",
+    "number",
+    "string",
+    "util"
+  ],
+  "types": "index.d.ts",
+  "author": "z9i",
+  "license": "MIT"
+}
