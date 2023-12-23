@@ -81,4 +81,14 @@ describe('compressNumberString', function () {
     ok(v === b)
   })
 
+  it('Should ignore leading or trailing underscore for uncompress', function () {
+    v = compress('9876500043210987654321')
+    a = uncompress(v)
+    b = uncompress('__' + v)
+    ok(a === b)
+
+    const c = uncompress(v + '___')
+    ok(a === c)
+  })
+
 })

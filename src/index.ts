@@ -51,6 +51,9 @@ export function uncompress(text: string): string {
       if (item === '~') {
         return zero;
       }
+      if (item === '') {
+        return '';
+      }
       return String(parseInt(item, 36));
     }).join('');
   }

@@ -1,6 +1,6 @@
 {
   "name": "@z9i/compress-number-string",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Compress a string contains only number character.",
   "main": "lib/index.js",
   "scripts": {
